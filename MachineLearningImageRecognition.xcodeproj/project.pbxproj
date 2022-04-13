@@ -16,6 +16,7 @@
 		E66EC89D27FBC29900B42D85 /* MachineLearningImageRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66EC89C27FBC29900B42D85 /* MachineLearningImageRecognitionTests.swift */; };
 		E66EC8A727FBC29900B42D85 /* MachineLearningImageRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66EC8A627FBC29900B42D85 /* MachineLearningImageRecognitionUITests.swift */; };
 		E66EC8A927FBC29900B42D85 /* MachineLearningImageRecognitionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66EC8A827FBC29900B42D85 /* MachineLearningImageRecognitionUITestsLaunchTests.swift */; };
+		E66EC8B627FBC5CE00B42D85 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E66EC8B527FBC5CE00B42D85 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E66EC8A227FBC29900B42D85 /* MachineLearningImageRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachineLearningImageRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66EC8A627FBC29900B42D85 /* MachineLearningImageRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineLearningImageRecognitionUITests.swift; sourceTree = "<group>"; };
 		E66EC8A827FBC29900B42D85 /* MachineLearningImageRecognitionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineLearningImageRecognitionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E66EC8B527FBC5CE00B42D85 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E66EC88E27FBC29900B42D85 /* Assets.xcassets */,
 				E66EC89027FBC29900B42D85 /* LaunchScreen.storyboard */,
 				E66EC89327FBC29900B42D85 /* Info.plist */,
+				E66EC8B527FBC5CE00B42D85 /* MobileNetV2.mlmodel */,
 			);
 			path = MachineLearningImageRecognition;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				E66EC88A27FBC29700B42D85 /* ViewController.swift in Sources */,
 				E66EC88627FBC29700B42D85 /* AppDelegate.swift in Sources */,
+				E66EC8B627FBC5CE00B42D85 /* MobileNetV2.mlmodel in Sources */,
 				E66EC88827FBC29700B42D85 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
